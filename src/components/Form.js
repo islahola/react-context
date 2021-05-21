@@ -10,6 +10,7 @@ const Form = () => {
     const submit = (e)=>{
         e.preventDefault()
         add(text)
+        setText("")
     }
     return (
         <form onSubmit={submit}>
